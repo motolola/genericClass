@@ -6,6 +6,8 @@ public class Client {
         MyGeneric<String> str = new MyGeneric<String>("Daddy");
         System.out.println(str.getT());
 
+        System.out.println("--------------");
+
         Student student = new Student(23, "Mike", 43);
 
         MyGeneric<Student> stu = new MyGeneric<>(student);
